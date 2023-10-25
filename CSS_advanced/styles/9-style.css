@@ -18,12 +18,10 @@
 	--line-height-base: 1.5;
 	--line-height-big: 1.8;
 }
-
 html {
 	scroll-behavior: smooth;
 	font-size: 62.5%;
 }
-
 body {
 	color: var(--text-color);
 	font-family: var(--font-family-base);
@@ -31,7 +29,6 @@ body {
 	font-weight: var(--font-weight-regular);
 	line-height: var(--line-height-base);
 }
-
 h1,
 h2,
 h3,
@@ -41,20 +38,10 @@ h6 {
 	font-family: var(--font-family-title);
 	font-weight: var(--font-weight-bold);
 }
-
 a {
 	color: var(--text-color);
 	text-decoration: none;
 }
-
-.visually-hidden {
-	display: none;
-}
-
-.card-category {
-	color: var(--color-primary);
-}
-
-.section-tagline {
-	color: var(--color-primary);
-}
+.visually-hidden {display: none;}
+.card-category {color: var(--color-primary);}
+.section-tagline {color: var(--color-primary);}
